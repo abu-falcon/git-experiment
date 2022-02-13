@@ -22,9 +22,9 @@ def give_three_args(*args: Any) -> None:
             print("Not Allowed")
 
 
-give_three_args(1, 2, 3)
-give_three_args("yes", "no", "name")
-give_three_args(A.one, A.two, A.three)
-give_three_args(1, "yes", A.one)
-give_three_args(5)
-give_three_args("hi", "hii")
+give_three_args(1, 2, 3)  # Three integer arguments!
+give_three_args("yes", "no", "name")  # Three string arguments!
+give_three_args(A.one, A.two, A.three)  # Three arguments with same type
+give_three_args(1, "yes", A.one)  # Three random arguments
+give_three_args(5)  # Not Allowed
+give_three_args("hi", "hii")  # Not Allowed
